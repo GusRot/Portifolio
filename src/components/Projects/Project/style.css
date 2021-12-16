@@ -1,0 +1,143 @@
+#style {
+    height: 400px;
+    width: 100%;
+    border: 0.2px solid;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.projetos {
+    background: linear-gradient(
+        230.65deg,
+        var(--projects),
+        var(--projects-end)
+    );
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px var(--dark-base);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+main h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.projetos lu {
+    list-style: none;
+}
+
+li {
+    padding: 10px 0;
+    position: relative;
+}
+
+li a {
+    font-size: 22px;
+    min-height: 24px;
+    vertical-align: top;
+    font-weight: 400;
+    transition-duration: 0.05s;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 26px;
+}
+
+.inline2 a {
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.75;
+    position: absolute;
+    right: 4px;
+    top: 8px;
+}
+
+.inline2 a:hover {
+    transform: translateY(-1px);
+    color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+}
+
+.rottaflix:hover {
+    color: rgb(226, 25, 25);
+    font-weight: 490;
+    font-size: 23px;
+}
+
+.memory-game:hover {
+    color: rgba(156, 141, 141, 1);
+    font-weight: 490;
+    font-size: 23px;
+}
+
+.rotta-eats:hover {
+    color: #741d20;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.barbearia:hover {
+    transition-duration: 0.1s;
+    color: var(--background);
+    font-size: 22.8px;
+    font-weight: 490;
+}
+
+.instagram:hover {
+    color: #f11670;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.cracha:hover {
+    color: rgb(238, 195, 39);
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.mentalist:hover {
+    color: #3178c9;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.curriculo:hover {
+    color: #ebdbcc;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.globo:hover {
+    color: #c4160c;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+button {
+    border: 1px solid var(--dark-base);
+    border-radius: 5px;
+    background-color: var(--background);
+    font-weight: 500;
+    box-shadow: 1px 2px 2px var(--dark-base);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--base-color-opacity);
+}
