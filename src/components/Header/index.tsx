@@ -21,6 +21,7 @@ export default function Header() {
                 <img
                     className="fotoPerfil"
                     src="https://github.com/GusRot.png"
+                    alt="foto-de-perfil"
                 />
             </div>
 
@@ -31,7 +32,11 @@ export default function Header() {
                 {socials.map((social, index) => (
                     <p key={index + "socials"}>
                         <a href={social.href} target="blank">
-                            <img className="logo" src={social.src} />
+                            <img
+                                className="logo"
+                                src={social.src}
+                                alt="midias"
+                            />
                         </a>
                     </p>
                 ))}

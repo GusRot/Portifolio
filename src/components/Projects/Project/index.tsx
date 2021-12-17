@@ -1,17 +1,6 @@
 import React from "react";
+import { ProjectProps } from "../../Types";
 import "./style.css";
-
-interface ProjectProps {
-    name: {
-        name: string;
-        emoji: string;
-        class: string;
-    };
-    repository: string;
-    website: string;
-    iframe: string;
-    result: string;
-}
 
 export default function Project({
     name,
@@ -23,20 +12,20 @@ export default function Project({
     return (
         <li className={`li-${name.class}`}>
             <p className="inline">
-                <a className={name.class} href={repository} target="blank">
+                <a className={name.class} href={website} target="blank">
                     <u>{name.name}</u>
                     {name.emoji}
                 </a>
             </p>{" "}
             <p className="inline2">
                 {" "}
-                <a href={website} target="blank">
+                <a href={repository} target="blank">
                     {" "}
                     Descrição{" "}
                 </a>
             </p>
             <iframe
-                id="style"
+                title={iframe}
                 src={`https://codepen.io/gusrot/embed/${iframe}?default-tab=${result}&theme-id=dark"&zoom=0.5`}
                 loading="lazy"
             >
