@@ -2,6 +2,7 @@ import React from "react";
 import Project from "./Project";
 import "./Project/style.css";
 import { Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 export default function Projects() {
     const project = [
@@ -55,15 +56,21 @@ export default function Projects() {
         <main className="projetos">
             <h2>Meus Projetos</h2>
             <ul id="style">
-                {project.map((proj) => (
-                    <Project
-                        key={proj.iframe}
-                        name={proj.name}
-                        repository={proj.repository}
-                        website={proj.website}
-                        iframe={proj.iframe}
-                        result={proj.result}
-                    />
+                {project.map((proj, index) => (
+                    <Fade
+                        direction={index % 2 === 0 ? "left" : "right"}
+                        damping={0.15}
+                        duration={250}
+                    >
+                        <Project
+                            key={proj.iframe}
+                            name={proj.name}
+                            repository={proj.repository}
+                            website={proj.website}
+                            iframe={proj.iframe}
+                            result={proj.result}
+                        />
+                    </Fade>
                 ))}
             </ul>
             <Link to="/pag2">
