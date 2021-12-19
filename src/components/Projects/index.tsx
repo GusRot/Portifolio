@@ -61,9 +61,9 @@ export default function Projects() {
                         direction={index % 2 === 0 ? "left" : "right"}
                         damping={0.15}
                         duration={250}
+                        key={proj.iframe}
                     >
                         <Project
-                            key={proj.iframe}
                             name={proj.name}
                             repository={proj.repository}
                             website={proj.website}
