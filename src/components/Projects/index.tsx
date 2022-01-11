@@ -73,9 +73,15 @@ export default function Projects() {
                     </Fade>
                 ))}
             </ul>
-            <Link to="/pag2">
-                <button>Próxima Página</button>
-            </Link>
+
+            <div className="pagination">
+                <Link to="/">
+                    <button>Voltar ao início</button>
+                </Link>
+                <Link to="/pag3">
+                    <button>Próxima Página</button>
+                </Link>
+            </div>
         </main>
     );
 }

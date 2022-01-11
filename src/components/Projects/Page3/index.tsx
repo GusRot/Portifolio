@@ -4,7 +4,7 @@ import Project from "../Project";
 import "../Project/style.css";
 import { Fade } from "react-awesome-reveal";
 
-export default function Page2() {
+export default function Page3() {
     const projectPag2 = [
         {
             name: {
@@ -86,9 +86,14 @@ export default function Page2() {
                 ))}
             </ul>
 
-            <Link to="/">
-                <button>Voltar Página</button>
-            </Link>
+            <div className="pagination">
+                <Link to="/">
+                    <button>Voltar ao início</button>
+                </Link>
+                <Link to="/pag2">
+                    <button>Voltar Página</button>
+                </Link>
+            </div>
         </main>
     );
 }

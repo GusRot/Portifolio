@@ -53,6 +53,11 @@ li a {
     transition-duration: 0.05s;
 }
 
+.pagination {
+    display: flex;
+    gap: 15px;
+}
+
 .inline {
     display: inline-block;
     margin-right: 5px;
@@ -125,6 +130,30 @@ li a {
 
 .globo:hover {
     color: #c4160c;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.travel:hover {
+    color: #00b6c1;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.to-do:hover {
+    color: #0a6dde;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.dt-money:hover {
+    color: #00aa66;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.forms:hover {
+    color: #fbbb57;
     font-size: 23px;
     font-weight: 490;
 }
