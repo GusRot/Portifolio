@@ -4,7 +4,7 @@ Todos os meus projetos em um só lugar! Confere aqui!
 
 Estarei constantemente atualizando este projeto com meus novos trabalhos.
 
-[Acesse aqui](portifolio-gusrot.vercel.app) para visualizar o build do projeto
+[Acesse link aqui] (portifolio-gusrot.vercel.app) para visualizar o build do projeto
 
 Você também pode rodar na sua máquina:
 
