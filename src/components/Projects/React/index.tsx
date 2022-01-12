@@ -51,6 +51,37 @@ export default function ProjectsReact() {
     return (
         <main className="projetos">
             <h2>Meus Projetos</h2>
+
+            <li className={`li-${"e-commerce"}`}>
+                <p className="inline">
+                    <a
+                        className={"e-commerce"}
+                        href={"e-commerce-gusrot.vercel.app"}
+                        target="blank"
+                    >
+                        <u>{"e-commerce"}</u>
+                        {"🏪"}
+                    </a>
+                </p>{" "}
+                <p className="inline2">
+                    {" "}
+                    <a
+                        href={"https://github.com/GusRot/e-commerce"}
+                        target="blank"
+                    >
+                        {" "}
+                        Descrição{" "}
+                    </a>
+                </p>
+                <iframe
+                    width="100%"
+                    height="450"
+                    src="https://www.youtube.com/embed/So8afPRb9TU"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe>
+            </li>
+
             <ul id="style">
                 {react.map((proj, index) => (
                     <Fade

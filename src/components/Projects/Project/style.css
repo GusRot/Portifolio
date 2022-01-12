@@ -110,6 +110,12 @@ li a {
     font-weight: 490;
 }
 
+.e-commerce:hover {
+    color: grey;
+    font-size: 23px;
+    font-weight: 490;
+}
+
 .cracha:hover {
     color: rgb(238, 195, 39);
     font-size: 23px;
