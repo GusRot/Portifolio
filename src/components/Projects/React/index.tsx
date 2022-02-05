@@ -8,13 +8,13 @@ export default function ProjectsReact() {
     const react = [
         {
             name: {
-                name: "Forms",
-                emoji: "⌨️",
-                class: "forms",
+                name: "challenge-webjump",
+                emoji: "🏢",
+                class: "webjump",
             },
-            repository: "https://github.com/GusRot/Form-Data",
-            website: "form-data-gusrot.vercel.app",
-            iframe: "cold-dust-yj339",
+            repository: "https://github.com/GusRot/clothes-ecommerce",
+            website: "clothes-ecommerce.vercel.app",
+            iframe: "clothes-ecommerce-tsryp",
         },
         {
             name: {
@@ -45,6 +45,16 @@ export default function ProjectsReact() {
             repository: "https://github.com/GusRot/Travel-Places",
             website: "travel-places.vercel.app",
             iframe: "vigorous-nightingale-gdqfl",
+        },
+        {
+            name: {
+                name: "Forms",
+                emoji: "⌨️",
+                class: "forms",
+            },
+            repository: "https://github.com/GusRot/Form-Data",
+            website: "form-data-gusrot.vercel.app",
+            iframe: "cold-dust-yj339",
         },
     ];
 
@@ -83,6 +93,7 @@ export default function ProjectsReact() {
             </li>
 
             <ul id="style">
+                <br></br>
                 {react.map((proj, index) => (
                     <Fade
                         direction={index % 2 === 0 ? "left" : "right"}

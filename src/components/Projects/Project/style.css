@@ -158,6 +158,12 @@ li a {
     font-weight: 490;
 }
 
+.webjump:hover {
+    color: #cb0d1f;
+    font-size: 23px;
+    font-weight: 490;
+}
+
 .forms:hover {
     color: #fbbb57;
     font-size: 23px;
