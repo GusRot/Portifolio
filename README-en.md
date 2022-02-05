@@ -1,5 +1,5 @@
-# Portifólio
-###  Version README [English](./README-en.md) 
+# Portfolio
+###  Versão README [Português](./README.md) 
 <div style="display: flex; gap:1rem;">
 <a href="#">
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/GusRot/Portifolio">
@@ -15,25 +15,29 @@
 </a>
 </div>
 
-## 📝 O Projeto
-Todos os meus projetos em um só lugar! Confere aqui!
+## 📝 Project
 
-Estarei constantemente atualizando este projeto com meus novos trabalhos.
+All my projects in one place! Check it out!
+
+I will be constantly updating this project with my new works.
 
 ## Build
-[Acesse link aqui] (https://portifolio-gusrot.vercel.app) para visualizar o build do projeto
 
-## bibliotecas utilizadas:
--  `react-awesome-reveal` `react-router-dom` 
+[Access link here] (https://portifolio-gusrot.vercel.app) to visualize the build.
+
+## Libraries used
+
+- `react-awesome-reveal` `react-router-dom`
 
 ### Run
-Você também pode rodar na sua máquina:
+
+Run yourself:
 
 ### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Available Scripts you can run:
+### Available Scripts you can run
 
 `yarn install`
 `yarn start`

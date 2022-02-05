@@ -74,13 +74,16 @@ export default function Projects() {
                 ))}
             </ul>
 
-            <div className="pagination">
-                <Link to="/">
-                    <button>Voltar ao início</button>
-                </Link>
-                <Link to="/pag3">
-                    <button>Próxima Página</button>
-                </Link>
+            <div className="paginations">
+                <div className="pagination">
+                    <Link to="/">
+                        <button>Voltar ao início</button>
+                    </Link>
+                    <Link to="/pag3">
+                        <button>Próxima Página</button>
+                    </Link>
+                </div>
+                <span>pag 2 / 3</span>
             </div>
         </main>
     );

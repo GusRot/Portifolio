@@ -58,6 +58,15 @@ li a {
     gap: 15px;
 }
 
+.paginations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paginations span {
+    font-size: 0.8rem;
+}
+
 .inline {
     display: inline-block;
     margin-right: 5px;

@@ -111,9 +111,12 @@ export default function ProjectsReact() {
                     </Fade>
                 ))}
             </ul>
-            <Link to="/pag2">
-                <button>Próxima Página</button>
-            </Link>
+            <div className="paginations">
+                <Link to="/pag2">
+                    <button>Próxima Página</button>
+                </Link>
+                <span>pag 1 / 3</span>
+            </div>
         </main>
     );
 }

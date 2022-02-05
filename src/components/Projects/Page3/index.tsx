@@ -86,13 +86,16 @@ export default function Page3() {
                 ))}
             </ul>
 
-            <div className="pagination">
-                <Link to="/">
-                    <button>Voltar ao início</button>
-                </Link>
-                <Link to="/pag2">
-                    <button>Voltar Página</button>
-                </Link>
+            <div className="paginations">
+                <div className="pagination">
+                    <Link to="/">
+                        <button>Voltar ao início</button>
+                    </Link>
+                    <Link to="/pag2">
+                        <button>Voltar Página</button>
+                    </Link>
+                </div>
+                <span>pag 3 / 3</span>
             </div>
         </main>
     );
