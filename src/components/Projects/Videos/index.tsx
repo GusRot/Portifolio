@@ -1,8 +1,7 @@
 import React from "react";
-import { ProjectProps } from "../../../Types";
-import "../../Project/style.css";
+import { ProjectProps } from "../../Types";
 
-export default function ProjectReact({
+export default function ProjectVideos({
     name,
     repository,
     iframe,
@@ -25,13 +24,12 @@ export default function ProjectReact({
                 </a>
             </p>
             <iframe
-                title={repository}
-                src={`https://codesandbox.io/embed/${iframe}?fontsize=14&hidenavigation=1&theme=dark`}
-                allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-                sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-            >
-                loading="lazy"
-            </iframe>
+                width="100%"
+                height="450"
+                src={iframe}
+                title={iframe}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
         </li>
     );
 }

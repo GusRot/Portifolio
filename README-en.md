@@ -4,7 +4,7 @@
 <a href="#">
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/GusRot/Portifolio">
 </a>
-<a href="https://www.figma.com/file/HOmk0wxN7ilQeUSDcbguP0/Imers%C3%A3o-Dev---Aula-10-(Copy)">
+<a href="https://www.figma.com/file/HOmk0wxN7ilQeUSDcbguP0/Imers%C3%A3o-Dev---Aula-10-(Copy)" target="blank">
   <img alt="Figma" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 <a href="#">
@@ -12,6 +12,9 @@
 </a>
 <a href="#">
 <img alt="Wakatime" src="https://wakatime.com/badge/user/04f1420e-9d57-410a-bdc7-d768fb237a52/project/25131acd-b7f5-4a84-851b-d9d3845b7f75.svg">
+</a>
+<a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" target="blank">
+<img alt="LicenseMIT" src="https://badgen.net/github/license/micromatch/micromatch">
 </a>
 </div>
 

@@ -2,6 +2,7 @@ import React from "react";
 import "../Project/style.css";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
+import ProjectVideos from "../Videos";
 import ProjectReact from "./ProjectReact";
 
 export default function ProjectsReact() {
@@ -58,39 +59,57 @@ export default function ProjectsReact() {
         },
     ];
 
+    const video = [
+        {
+            name: {
+                name: "e-commerce",
+                emoji: "🏢",
+                class: "e-commerce",
+            },
+            repository: "https://github.com/GusRot/e-commerce",
+            website: "https://github.com/GusRot/e-commerce",
+            iframe: "https://www.youtube.com/embed/So8afPRb9TU",
+        },
+        {
+            name: {
+                name: "magento-styles",
+                emoji: "⚔",
+                class: "magento-styles",
+            },
+            repository: "https://github.com/GusRot/Magento-Styles",
+            website: "https://github.com/GusRot/Magento-Styles",
+            iframe: "https://www.youtube.com/embed/vqYf1iDuWT0",
+        },
+        {
+            name: {
+                name: "magento-theme",
+                emoji: "⛟",
+                class: "magento-theme",
+            },
+            repository: "https://github.com/GusRot/Magento-theme",
+            website: "https://github.com/GusRot/Magento-theme",
+            iframe: "https://www.youtube.com/embed/91P7wj8-Lzw",
+        },
+    ];
+
     return (
         <main className="projetos">
             <h2>Meus Projetos</h2>
 
-            <li className={`li-${"e-commerce"}`}>
-                <p className="inline">
-                    <a
-                        className={"e-commerce"}
-                        href={"e-commerce-gusrot.vercel.app"}
-                        target="blank"
-                    >
-                        <u>{"e-commerce"}</u>
-                        {"🏪"}
-                    </a>
-                </p>{" "}
-                <p className="inline2">
-                    {" "}
-                    <a
-                        href={"https://github.com/GusRot/e-commerce"}
-                        target="blank"
-                    >
-                        {" "}
-                        Descrição{" "}
-                    </a>
-                </p>
-                <iframe
-                    width="100%"
-                    height="450"
-                    src="https://www.youtube.com/embed/So8afPRb9TU"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                ></iframe>
-            </li>
+            <ul>
+                {video.map((proj) => (
+                    <>
+                        <ProjectVideos
+                            name={proj.name}
+                            repository={proj.repository}
+                            website={proj.website}
+                            iframe={proj.iframe}
+                            result=""
+                            key={proj.iframe}
+                        />
+                    </>
+                ))}
+            </ul>
 
             <ul id="style">
                 <br></br>

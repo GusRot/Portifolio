@@ -119,6 +119,18 @@ li a {
     font-weight: 490;
 }
 
+.magento-styles:hover {
+    color: #ffd16b;
+    font-size: 23px;
+    font-weight: 490;
+}
+
+.magento-theme:hover {
+    color: #14214e;
+    font-size: 23px;
+    font-weight: 490;
+}
+
 .e-commerce:hover {
     color: grey;
     font-size: 23px;
