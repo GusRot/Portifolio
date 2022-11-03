@@ -67,6 +67,49 @@ header p {
     animation: spin 5s linear infinite;
 }
 
+.info-container .certification {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    position: relative;
+    cursor: pointer;
+    color: var(--base-color);
+}
+
+.info-container .certification::after {
+    content: "";
+    background-color: var(--base-color);
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    opacity: 40%;
+    transition: 0.2s;
+}
+
+.info-container .certification:hover::after {
+    width: 100%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.info-resume p {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.info-resume:hover a {
+    color: var(--base-color);
+    font-size: 21px;
+}
+
 @keyframes spin {
     100% {
         transform: rotate(360deg);

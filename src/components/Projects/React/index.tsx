@@ -94,7 +94,7 @@ export default function ProjectsReact() {
 
     return (
         <main className="projetos">
-            <h2>Meus Projetos</h2>
+            <h2>My Projects</h2>
 
             <ul>
                 {video.map((proj) => (
@@ -132,7 +132,7 @@ export default function ProjectsReact() {
             </ul>
             <div className="paginations">
                 <Link to="/pag2">
-                    <button>Próxima Página</button>
+                    <button>Next Page</button>
                 </Link>
                 <span>pag 1 / 3</span>
             </div>

@@ -21,7 +21,7 @@ export default function Project({
                 {" "}
                 <a href={repository} target="blank">
                     {" "}
-                    Descrição{" "}
+                    Description{" "}
                 </a>
             </p>
             <iframe

@@ -54,7 +54,7 @@ export default function Projects() {
 
     return (
         <main className="projetos">
-            <h2>Meus Projetos</h2>
+            <h2>My Projects</h2>
             <ul id="style">
                 {project.map((proj, index) => (
                     <Fade
@@ -77,10 +77,10 @@ export default function Projects() {
             <div className="paginations">
                 <div className="pagination">
                     <Link to="/">
-                        <button>Voltar ao início</button>
+                        <button>Back to start</button>
                     </Link>
                     <Link to="/pag3">
-                        <button>Próxima Página</button>
+                        <button>Next Page</button>
                     </Link>
                 </div>
                 <span>pag 2 / 3</span>

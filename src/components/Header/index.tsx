@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 export default function Header() {
-    const info = ["Gustavo Lira Rotta", "Desenvolvedor Full-Stack"];
+    const info = ["Gustavo Lira Rotta", "Front-end Developer"];
     const socials = [
         {
             href: "https://www.linkedin.com/in/gustavo-rotta-6447b0163/",
@@ -25,21 +25,42 @@ export default function Header() {
                 />
             </div>
 
-            <div>
-                <h1>{info[0]}</h1>
-                <p>{info[1]}</p>
+            <div className="info-container">
+                <div>
+                    <h1>{info[0]}</h1>
+                    <p>{info[1]}</p>
 
-                {socials.map((social, index) => (
-                    <p key={index + "socials"}>
-                        <a href={social.href} target="blank">
-                            <img
-                                className="logo"
-                                src={social.src}
-                                alt="midias"
-                            />
+                    {socials.map((social, index) => (
+                        <p key={index + "socials"}>
+                            <a href={social.href} target="blank">
+                                <img
+                                    className="logo"
+                                    src={social.src}
+                                    alt="midias"
+                                />
+                            </a>
+                        </p>
+                    ))}
+                    <p className="certification">
+                        <a
+                            href="https://1drv.ms/b/s!AvtEm98X2cVanssS264BUFuZE7mSLg?e=iF5qDp"
+                            target="blank"
+                        >
+                            Adobe Certified Expert Front-End Developer - Adobe
+                            Commerce
                         </a>
                     </p>
-                ))}
+                </div>
+                <div className="info-resume">
+                    <p>
+                        <a
+                            href="https://gusrot.github.io/Curriculo-Interativo/pages/ingles.html"
+                            target="blank"
+                        >
+                            RESUME
+                        </a>
+                    </p>
+                </div>
             </div>
         </header>
     );

@@ -67,6 +67,10 @@ li a {
     font-size: 0.8rem;
 }
 
+.paginations button {
+    padding: 5px 10px;
+}
+
 .inline {
     display: inline-block;
     margin-right: 5px;

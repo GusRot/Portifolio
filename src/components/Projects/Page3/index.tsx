@@ -8,18 +8,6 @@ export default function Page3() {
     const projectPag2 = [
         {
             name: {
-                name: "Barbearia",
-                emoji: "🧔",
-                class: "barbearia",
-            },
-            repository: "https://github.com/GusRot/HelloWorld---Barbearia",
-            website:
-                "https://gusrot.github.io/HelloWorld---Barbearia/index.html",
-            iframe: "VwWgXwV",
-            result: "html%2Cresult",
-        },
-        {
-            name: {
                 name: "Mentalist",
                 emoji: "🧠",
                 class: "mentalist",
@@ -62,6 +50,18 @@ export default function Page3() {
             iframe: "OJjmGPW",
             result: "html%2Cresult",
         },
+        {
+            name: {
+                name: "Barbearia",
+                emoji: "🧔",
+                class: "barbearia",
+            },
+            repository: "https://github.com/GusRot/HelloWorld---Barbearia",
+            website:
+                "https://gusrot.github.io/HelloWorld---Barbearia/index.html",
+            iframe: "VwWgXwV",
+            result: "html%2Cresult",
+        },
     ];
 
     return (
@@ -89,10 +89,10 @@ export default function Page3() {
             <div className="paginations">
                 <div className="pagination">
                     <Link to="/">
-                        <button>Voltar ao início</button>
+                        <button>Back to start</button>
                     </Link>
                     <Link to="/pag2">
-                        <button>Voltar Página</button>
+                        <button>Previous page</button>
                     </Link>
                 </div>
                 <span>pag 3 / 3</span>

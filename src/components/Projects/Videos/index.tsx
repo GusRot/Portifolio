@@ -20,7 +20,7 @@ export default function ProjectVideos({
                 {" "}
                 <a href={repository} target="blank">
                     {" "}
-                    Descrição{" "}
+                    Description{" "}
                 </a>
             </p>
             <iframe
