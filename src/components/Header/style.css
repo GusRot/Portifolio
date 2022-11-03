@@ -84,7 +84,7 @@ header p {
     position: absolute;
     bottom: -2px;
     left: 0;
-    opacity: 40%;
+    opacity: 0.4;
     transition: 0.2s;
 }
 
